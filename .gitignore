@@ -32,3 +32,5 @@ dist/
 *.log
 .env
 .env.local
+package-lock.json/
+package-lock.json
