@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
-import Navbar from './Navbar';
+import Navbar from "./components/Navbar";
+
 
 function App() {
   return (
