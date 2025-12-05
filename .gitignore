@@ -22,15 +22,16 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-node_modules/
 
 # Production
-dist/
+/dist
 
 # Misc
 .DS_Store
 *.log
 .env
 .env.local
-package-lock.json/
+
+# Lock files (optional - some prefer to keep)
 package-lock.json
+yarn.lock
