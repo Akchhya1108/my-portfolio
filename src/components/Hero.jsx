@@ -84,10 +84,10 @@ function Hero() {
             textTransform: 'uppercase',
           }}
         >
-          Hi, I'm
+          Hi, its
           <br />
           <span className="bg-gradient-to-r from-metamask-orange via-metamask-purple to-metamask-orange bg-clip-text text-transparent">
-            Akchhya
+            Akchhya!
           </span>
         </motion.h1>
 
@@ -98,7 +98,7 @@ function Hero() {
           transition={{ duration: 0.6, delay: 0.8 }}
           className="text-xl sm:text-2xl md:text-3xl font-bold text-metamask-purple/80 mb-4 max-w-4xl mx-auto"
         >
-          Full Stack Developer, Designer & Creator
+          Tech | Design | Writing
         </motion.p>
 
         <motion.p

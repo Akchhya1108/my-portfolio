@@ -1,6 +1,9 @@
 import { motion } from 'framer-motion';
 import { FiCode, FiServer, FiZap } from 'react-icons/fi';
 import CatMascot from './CatMascot';
+import Projects from "./Projects";
+import Skills from './Skills';
+
 
 function About() {
   const stats = [
@@ -55,17 +58,17 @@ function About() {
             {/* Bio */}
             <div className="space-y-6">
               <h3 className="text-3xl font-bold text-metamask-purple">
-                Building the Future, One Line at a Time
+                I like to create stuff sometimes.
               </h3>
               
               <p className="text-lg text-metamask-purple/70 leading-relaxed">
-                Computer Science student specializing in <span className="text-metamask-orange font-semibold">Kubernetes</span>, 
+                Computer Science student specializing in <span className="text-metamask-orange font-semibold">Artificial Intelligence and Generative Models</span>, 
                 <span className="text-metamask-orange font-semibold"> MLOps</span>, and cloud-native technologies.
               </p>
 
               <p className="text-lg text-metamask-purple/70 leading-relaxed">
                 Passionate about building <span className="text-metamask-orange font-semibold">distributed systems</span> and 
-                shipping production-grade applications. Active contributor to open-source communities.
+                shipping production-grade applications.
               </p>
             </div>
 
@@ -124,11 +127,11 @@ function About() {
             <p className="text-xl font-bold text-metamask-purple mb-2">
               Currently Exploring
             </p>
-            <p className="text-metamask-orange font-semibold">
-              OpenShift • Kubeflow • Post-Quantum Cryptography
-            </p>
           </div>
+          <Skills />
+          <Projects />
         </motion.div>
+        
       </div>
     </section>
   );
